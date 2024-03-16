@@ -1,3 +1,21 @@
+codorna/
+├── docker-compose-full-bash.yml
+├── docker-compose-standalone.yml
+├── docker-compose.yml
+├── Dockerfile
+├── Dockerfile.sqlite
+├── justfile
+├── migrations
+│   └── 1_setup.sql
+├── nginx.conf
+└── src
+    ├── api.sh
+    ├── api-standalone.sh
+    ├── db.sh
+    ├── lb.sh
+    └── server.sh
+
+2 directories, 13 files
 
 #-----------nginx.conf
 
